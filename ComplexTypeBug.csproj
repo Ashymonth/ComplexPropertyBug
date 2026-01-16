@@ -8,12 +8,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Ardalis.SmartEnum.EFCore" Version="8.2.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.10">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="PhenX.EntityFrameworkCore.BulkInsert.PostgreSql" Version="0.4.3" />
+      <PackageReference Include="PhenX.EntityFrameworkCore.BulkInsert.PostgreSql" Version="0.4.6" />
     </ItemGroup>
 
 </Project>
